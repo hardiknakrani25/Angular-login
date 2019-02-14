@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase : {
+    apiKey: "AIzaSyBO_Cr_CyOfcYTpHky9j0MVDgomYz3syMc",
+    authDomain: "crickplayauth.firebaseapp.com",
+    databaseURL: "https://crickplayauth.firebaseio.com",
+    projectId: "crickplayauth",
+    storageBucket: "crickplayauth.appspot.com",
+    messagingSenderId: "91111186552"
+  }
 };
 
 /*
